@@ -1,12 +1,27 @@
-# Retro Week \##
+# Retro Week \#1
 
 ## Wat ging goed
-1. Succes #1
-2. Succes #2
+1. De samenwerking was geweldig
+2. Het uitvoeren van de opdrachten ging goed
 
 ## Wat ging er minder goed
-1. Domper #1
-2. Domper #2
+1. De concentratie was soms snel weg bij mij
+2. Ik heb niet genoeg rust momenten genomen voor mezelf
 
 ## Actiepunten voor volgende week
-* Actiepunt #1
+* Ik wil wat meer tempo in het uitvoeren van de opdrachten
+* Ik wil meer focussen op mijn concentratie goed bewaren
+
+# Retro Week \#2
+
+## Wat ging goed
+1. Succes
+2. Succes
+
+## Wat ging er minder goed
+1. Minder succes
+2. Minder succes
+
+## Actiepunten voor volgende week
+* Punt
+* Punt
