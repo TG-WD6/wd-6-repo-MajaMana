@@ -52,7 +52,7 @@ Deze handout bevat veel meer opdrachten dan de handouts die je hiervoor hebt gez
 
 <br>
 
-# **Selectors & Visual rules**
+# **1. Selectors & Visual rules**
 
 In CSS worden selectors gebruikt om de HTML elementen op een webpagina te targeten die we willen stylen. Er is een grote verscheidenheid aan CSS-selectors beschikbaar, die een grote precisie mogelijk maken bij het selecteren van elementen om te stijlen.
 
@@ -159,7 +159,7 @@ Je kunt meer informatie vinden over deze concepten in [deze video](https://www.y
 
 <br>
 
-# **Het box-model**
+# **2. Het box-model**
 
 Alles in CSS heeft een zogenaamde ‘box’ eromheen en het begrijpen van deze ‘boxen’ is de sleutel om lay-outs met CSS te kunnen maken of om items met andere items uit te lijnen. In deze les zullen we het CSS-box-model goed bekijken zodat je complexere layouts kunt bouwen met een beter inzicht in hoe het werkt en de terminologie die daarmee verband houdt. In CSS wordt de term "box model" gebruikt wanneer we het dus hebben over ontwerp en lay-out. Elke ‘box’ in CSS bestaat uit: ‘margins’, ‘borders’, ‘padding’, en de ‘content’ oftewel de inhoud. De onderstaande afbeelding illustreert het box-model. Officiële documentatie over het box-model vind je [hier op deze website](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model).
 
@@ -233,7 +233,7 @@ Welke CSS property kun je gebruiken om ervoor te zorgen dat de waarde van width 
 
 <br>
 
-# **Display & Positioning**
+# **3. Display & Positioning**
 
 De CSS ‘position’ property bepaalt hoe een HTML element in een document wordt gepositioneerd. Je kunt elk HTML-element op elke gewenste locatie plaatsen. Je kunt bijvoorbeeld aangeven of je het element relatief ten opzichte van de standaardpositie op de pagina wilt plaatsen of absoluut op basis van het bovenliggende element. De top, right, bottom en left properties bepalen de uiteindelijke locatie van geplaatste elementen. Officiële documentatie over display & positioning vind je [hier op deze website](https://developer.mozilla.org/en-US/docs/Web/CSS/position).
 
@@ -315,7 +315,7 @@ Maak het onderstaande na. Je mag zelf een image zoeken en gebruiken.
 
 <br>
 
-# **Pseudo elements**
+# **4. Pseudo elements**
 
 In CSS worden stijlen normaal gedefinieerd ten behoeve van een element. Soms is het echter wenselijk effecten te bereiken, die niet mogelijk zijn als je alleen beschikt over element- of attribuut-selectors. Bijvoorbeeld het in een bepaalde opmaak weergeven van de eerste letter of de eerste regel van de inhoud van een element. Om dat soort effecten mogelijk te maken, zijn pseudo-elementen geïntroduceerd. Een pseudo-element kun je zien als een denkbeeldig element, dat weliswaar niet in het document voorkomt, maar waarvoor je wel een stijl kunt definiëren.
 
@@ -396,7 +396,7 @@ De laatste opdracht vergt wat creativiteit. Zie het onderstaande voorbeeld en ma
 
 <br>
 
-# **Flexbox**
+# **5. Flexbox**
 
 Flexbox is een CSS model voor het positioneren van HTML-elementen. Het is een ideale techniek voor de ontwikkeling van een responsive layout. Het gebruik van ‘float’ en ‘absolute’ positioning is met deze techniek verleden tijd. Het grote voordeel van Flexbox is dat het een volwaardig CSS model is die je volledige controle geeft over de zaken die belangrijk zijn bij een responsive layout van je webpagina. Denk daarbij bijvoorbeeld aan de uitlijning en sortering van HTML-elementen. Daarnaast heb je geen onnodige divs of clears meer nodig.
 
@@ -479,7 +479,7 @@ Zie het onderstaande voorbeeld en maak het na met flexbox.
 
 <br>
 
-# **CSS Grid**
+# **6. CSS Grid**
 
 CSS Grid is een manier om de layout van je pagina in te delen, vergelijkbaar met Flexbox. Ook veel van de properties hebben vergelijkenis. CSS Grid is wel wat complexer / krachtiger - waar Flexbox items in 1 richting kan laten krimpen / groeien, kan CSS Grid dat in 2 richtingen doen. Zie onderstaand voorbeeld:
 
@@ -579,7 +579,7 @@ Gebruik grid-template-areas om je sidebar te benoemen. Gebruik vervolgens grid-a
 
 <br>
 
-# **Transitions**
+# **7. Transitions**
 
 CSS-transitions bieden een manier om de animatiesnelheid te regelen bij het wijzigen van CSS-properties. In plaats van het onmiddellijk wijzigen van de properties, kun je ervoor zorgen dat de wijzigingen in een property gedurende een bepaalde periode plaatsvinden. Als je bijvoorbeeld de kleur van een element verandert van wit naar zwart, dan is de verandering meestal onmiddellijk. Als CSS-transitions zijn toegepast, vinden er wijzigingen plaats met tijdsintervallen die een versnellingscurve volgen, die allemaal kunnen worden aangepast naar wens.
 
@@ -651,7 +651,7 @@ Zie de onderstaande animatie en probeer deze na te maken. Hier is gebruik gemaak
 
 <br>
 
-# **Responsive web design**
+# **8. Responsive web design**
 
 Het liefst wil je dat je website zich automatisch aanpast naar het apparaat dat je gebruikt, of eigenlijk naar de grootte van het browserscherm op dat apparaat.
 
