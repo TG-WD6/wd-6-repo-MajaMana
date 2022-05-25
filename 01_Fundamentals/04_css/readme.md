@@ -436,7 +436,7 @@ Zie het onderstaande voorbeeld, een van de items is breder dan de rest. Maak het
 
 ### **Opdracht 4**
 
-De property ‘justify-content’ is een property die door flex gebruikt wordt. Maak een voorbeeld dat gebruik maakt van de align-items property.
+De property ‘justify-content’ is een property die door flex gebruikt wordt. Maak een voorbeeld dat gebruik maakt van de justify-content property.
 
 <br>
 

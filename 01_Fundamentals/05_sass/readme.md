@@ -71,7 +71,7 @@ De officiële documentatie van SASS kun je [hier vinden](https://sass-lang.com/g
 
 <br>
 
-# **Nesting**
+# **1. Nesting**
 
 Nesting is het proces waarbij selectors binnen het bereik van een andere selector worden geplaatst. In Sass is het handig om het bereik van een selector te beschouwen als de code tussen de accolades die openen en sluiten {}.
 
@@ -153,7 +153,7 @@ Nest de icon selector in de container selector en geef de icon selector de volge
 
 <br>
 
-# **Variables**
+# **2. Variables**
 
 Met variabelen in SCSS kun je een zogenaamde ‘identifier’ naar keuze aan een specifieke waarde toewijzen. Waarom is dat handig? In tegenstelling tot CSS, als je een value moet aanpassen, hoef je deze slechts op één plaats aan te passen en de wijziging wordt toegepast op alle betreffende regels. Hoe groter je website wordt, des te handiger het gebruik van variabelen is.
 
@@ -228,7 +228,7 @@ De ‘&’ is een ontzettend handige feature in SASS. Je gebruikt het bij het ne
 
 <br>
 
-# **3 Partials and Modules**
+# **3. Partials and Modules**
 
 Binnen Sass kunnen we partials, een afkorting voor partial files, aanmaken. Dit zijn korte Sass codes die we aanmaken om te hergebruiken in andere onderdelen van onze projecten. Zodra de developer gebruik wil maken van styling die hergebruikt kan worden voor andere onderdelen van een website is het altijd een goed idee om hier een partial van te maken. Enkele voorbeelden zijn styling voor: buttons, teksten en foto's. Op de TechGrounds website maken wij hier gebruik van voor de buttons en header styling. Wij willen een uniforme styling voor deze onderdelen zodat de website netjes blijft. Ook is een groot voordeel hiervan dat we de styling maar op één plek hoeven aan te passen zodat het direct ook aangepast wordt op de andere onderdelen van de website. Om juist gebruik te maken van partials plaatsen we een map genaamd 'styling' in de assets of resources map. Deze map maak je als developer vaak aan om verschillende mappen zoals images en fonts in te plaatsen. In de styling map maken wij een bestand aan dat **altijd** begint met een lage streepje _ . We importeren dit bestand als volgt:
 
@@ -303,7 +303,7 @@ Sass zorgt ervoor dat we het DRY principe erg goed kunnen aanhouden. Dankzij de 
 
 <br>
 
-# **Mixins and Includes**
+# **4. Mixins and Includes**
 
 Mixin zorgt ervoor dat wij CSS code kunnen schrijven die we kunnen hergebruiken door de website heen. Het verschilt van partials in de zin dat bij partials we een bestand inladen met voorgeschreven CSS classes. Bij een mixin nemen we alleen de properties en values over. Hieronder volgt een voorbeeld: 
 
@@ -437,7 +437,7 @@ Maak een Sass mixin aan waarbij we een div transition die van kleur verandert on
 
 <br>
 
-### **Extend and Inheritance**
+# **5. Extend and Inheritance**
 
 De extend feature van Sass is wellicht de belangrijkste feature die Sass met zich meebrengt. Door gebruik te maken van deze feature kunnen we styling van de ene class overdragen naar de andere via een regel code. Hieronder volgt een voorbeeld:
 
@@ -502,7 +502,7 @@ Sass volgt dus het DRY principe. Het DRY principe wordt ook erg mooi meegenomen 
 
 <br>
 
-# **Operators**
+# **6. Operators**
 
 In CSS kunnen we geen gebruik maken van mathemetical operators. Hiermee bedoelen we tekens zoals: 
 
