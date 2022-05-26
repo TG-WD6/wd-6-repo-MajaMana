@@ -4,7 +4,7 @@
 1. De samenwerking was geweldig
 2. Het uitvoeren van de opdrachten ging goed
 
-## Wat ging er minder goed
+## Wat kan beter
 1. De concentratie was soms snel weg bij mij
 2. Ik heb niet genoeg rust momenten genomen voor mezelf
 
