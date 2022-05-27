@@ -6,23 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container {
-            display: flex;
+        body {
+            margin: 0;
         }
 
-        p {
-            background-color: lightblue;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
+
+        .container-item-1 {
+            position: relative;
+            background-color: lightblue;
+            height: 30px;
+            width: 100%;
+            margin-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .container-item-2 {
+            position: relative;
+            background-color: lightblue;
+            height: 30px;
+            width: 50%;
+            margin-bottom: 5px;
+        }
+
+        
+        .container-item-3 {
+            position: relative;
+            background-color: lightblue;
+            height: 30px;
+            width: 60%;
+            margin-bottom: 5px;
+        }
+
+        .container-item-4 {
+            position: relative;
+            background-color: lightblue;
+            height: 30px;
+            width: 70%;
+            margin-bottom: 5px;
+        }
+
+        .container-item-5 {
+            position: relative;
+            background-color: lightblue;
+            height: 30px;
+            width: 30%;
+            margin-bottom: 5px;
+        }
+
+        .container-item-6 {
+            position: relative;
+            background-color: lightblue;
+            height: 30px;
+            width: 40%;
+            margin-bottom: 5px;
+        }
+       
     </style>
 </head>
 <body>
-   <section class="container">
-       <p class="container-item"></p>
-       <p class="container-item"></p>
-       <p class="container-item"></p>
-       <p class="container-item"></p>
-       <p class="container-item"></p>
-       <p class="container-item"></p>
-   </section>
+   <div class="container">
+       <div class="container-item-1"></div>
+       <div class="container-item-2"></div>
+       <div class="container-item-3"></div>
+       <div class="container-item-4"></div>
+       <div class="container-item-5"></div>
+       <div class="container-item-6"></div>
+   </div>
 </body>
 </html>
