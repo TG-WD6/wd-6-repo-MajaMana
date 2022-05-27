@@ -248,6 +248,8 @@ Er zijn 14 verschillende pseudo-elementen. Beschrijf ze alle 14 kort en maak voo
 
 Bij CSS Grid wordt vaak gebruikgemaakt van een speciale lengte-eenheid: “**fr**”. Onderzoek wat deze doet en beschrijf het in je eigen woorden.
 
+*De fr eenheid staat voor het gebruik van flexibele lengtes. Als 1 element een fr van 1 heeft en het volgende element een fr van 2, dan zal het tweede element 2x zo lang zijn als element 1.*
+
 <br>
 
 # CSS vragen hoofdstuk 7
