@@ -226,7 +226,11 @@ De belangrijkste waardes van “position” zijn static, relative, absolute, fix
 
 <br>
 
-*De waarde fixed betekent dat het element 
+*De waarde fixed betekent dat het element gepositioneerd wordt relatief van de viewport. Dit betekent dat het element altijd op de pagina zichtbaar zal zijn, zelfs als er gescrolld wordt. Door gebruikt te maken van top, bottom, left of right kan het element ergens op de pagina vastgezet worden.*
+
+<br>
+
+*De waarde sticky betekent dat het element toggled tussen relative en fixed. Afhankelijk van de plek van het element op de pagina, zal het pas vastgezet worden nadat er verder dan het element gescrolld wordt. Staat het element midden op de pagina, dan wordt het pas vastgezet als er verder dan het midden wordt gescrolld. Het begint als een relative element.*
 
 <br>
 

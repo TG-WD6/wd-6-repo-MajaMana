@@ -6,53 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        section {
-            text-align: left;
-        }
-
         img {
             width: 50%;
         }
 
-        h1 {
-            position: absolute;
-            top: 15%;
-            left: 1%;
+        .container {
+            display: flex;
+        }
+
+        .container-content-brr {
             background-color: yellow;
+            position: relative;
+            top: -250px;
+            width: 45%;
+            padding-left: 30px;
             font-size: xx-large;
-            display: inline-block;
-            padding-left: 1%;
-            width: 40%;
-            
+            font-weight: bold;
         }
 
-        p {
-            position: absolute;
-            top: 23%;
-            left: 1%;
-            background-color: white;
-            font-size: large;
-            padding-left: 1%;
-            width: 20%;
-            opacity: 0.8;
+        .container-content-trans {
+            opacity: 0;
+            position: relative;
+            top: -250px;
+            width: 46px;
         }
 
-        .s3 {
+        .container-content-yellow {
             background-color: yellow;
-            position: absolute;
-            top: 15%;
-            width: 50px;
+            position: relative;
+            top: -250px;
+            width:35px;
+        }
+
+        .koud {
+            display: flex;
+        }
+
+        .koud-content {
+            background-color: white;
+            position: relative;
+            opacity: 0.8;
+            top: -240px;
+            padding-left: 20px;
+            left: 15px;
+            width: 20%;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <section class="2">
+    <section class="background">
         <img src="/01_Fundamentals/04_css/css-opdrachten/3.Display and positioning/Images/Snow.webp" alt="Snowy mountain">
-        <h1>Bbbrrrrr...</h1>
-        <p>Super koud hier zeg!</p>
     </section>
 
-    <section class="s2"></section>
-    <section class="s3">hi</section>
+    <div class="container">
+        <div class="container-content-brr">Bbbrrrrr...</div>
+        <div class="container-content-trans"></div>
+        <div class="container-content-yellow"></div>
+    </div>
+
+    <section class="koud">
+        <div class="koud-content">Super koud hier zeg!</div>
+    </section>
 </body>
 </html>
