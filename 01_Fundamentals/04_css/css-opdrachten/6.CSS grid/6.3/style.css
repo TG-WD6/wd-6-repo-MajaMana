@@ -13,6 +13,7 @@ section {
     min-width: 100vw;
     background-color: lightblue;
     padding: 25px;
+    display: grid;
 }
 
 section div {
@@ -30,4 +31,5 @@ section div {
 
 .article {
     background-color: white;
+    grid-template-columns: repeat(2, 2fr 2fr);
 }

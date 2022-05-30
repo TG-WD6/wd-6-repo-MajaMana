@@ -6,43 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opdracht 4.2</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
         .box {
-            display: flex;
-            flex-direction: row;
-
-        }
-
-        .box-content-before {
-            background-color: lightseagreen;
-            border-top: solid orangered 10px;
-            border-left: solid orangered 10px;
-            width: 50px;
-        }
-
-        .box-content-button {
             background-color: lightseagreen;
             font-size: xx-large;
             color: white;
-            font-family:Arial, Helvetica, sans-serif;
-            padding-left: 20%;
-            padding-right: 20%;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            width: 600px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .box-content-after {
+        .box ::after {
+            content: '';
+            position: absolute;
+            width: 40px;
             background-color: lightseagreen;
-            border-bottom: solid orangered 10px;
-            border-right: solid orangered 10px;
-            width: 50px;
+            border-right: 10px solid tomato;
+            border-bottom: 10px solid tomato;
+            height: 40px;
+            left: 550px;
+            top: 0px;
+        }
+
+        .box ::before {
+            content: '';
+            position: absolute;
+            width: 40px;
+            background-color: lightseagreen;
+            border-left: 10px solid tomato;
+            border-top: 10px solid tomato;
+            height: 40px;
+            left: 0px;
+            top: 0px;
         }
     </style>
 </head>
 <body>
     <div class="box">
-        <div class="box-content-before"></div>
         <div class="box-content-button">Button</div>
-        <div class="box-content-after"></div>
     </div>
 </body>
 </html>
