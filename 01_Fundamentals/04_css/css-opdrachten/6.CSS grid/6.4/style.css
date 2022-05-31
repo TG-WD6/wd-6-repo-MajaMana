@@ -13,6 +13,9 @@ section {
     min-width: 100vw;
     background-color: lightblue;
     padding: 25px;
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,3fr);
+    grid-template-rows: minmax(0,2fr) minmax(0,2fr);
 }
 
 section div {
@@ -26,8 +29,11 @@ section div {
     background-color: lightgreen;
     width: 100%;
     height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
 }
 
 .article {
     background-color: white;
+    grid-column: 2 / 4;
 }
