@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS 7.3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            border: solid black;
+            width: 900px;
+            margin: 10px;
+            background-color: aquamarine;
+            align-items: flex-start;
+        }
+
+        .box-item {
+            background-color: white;
+            border: solid black;
+            height: 80px;
+            width: 80px;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            transform: 2s;
+        }
+
+        .box:hover {
+        }
+
+    </style>
 </head>
 <body>
-    
+    <section class="box">
+        <div class="box-item" id="item-1">1</div>
+        <div class="box-item" id="item-2">2</div>
+        <div class="box-item" id="item-3">3</div>
+        <div class="box-item" id="item-4">4</div>
+    </section>
 </body>
 </html>

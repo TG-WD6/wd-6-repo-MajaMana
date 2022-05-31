@@ -15,8 +15,8 @@ section {
     padding: 25px;
     display: grid;
     grid-template-areas: 
-    "menu art1 art1 art1"
-    "menu art2 art2 art2";
+    "sidebar art1 art1 art1"
+    "sidebar art2 art2 art2";
 }
 
 section div {
@@ -30,7 +30,7 @@ section div {
     background-color: lightgreen;
     width: 100%;
     height: 100%;
-    grid-area: menu;
+    grid-area: sidebar;
 }
 
 .article {
