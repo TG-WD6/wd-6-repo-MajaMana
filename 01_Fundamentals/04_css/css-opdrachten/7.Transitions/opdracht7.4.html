@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS 7.4</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            width: 800px;
+            height: 400px;
+            margin: 40px;
+        }
+
+        .box-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            font-size: x-large;
+            transition: 4s;
+        }
+
+        #item-1 {
+            transition-timing-function: ease-in;
+        }
+        
+        .box:hover #item-1 {
+            transform: translate(375px,-175px);
+        }
+
+        #item-2 {
+            transition-timing-function: ease-in;
+        }
+
+        .box:hover #item-2{
+            transform: translate(-375px,-175px);
+        }
+
+        #item-3 {
+            transition-timing-function: ease-in-out;
+        }
+
+        .box:hover #item-3 {
+            transform: translate(-375px,175px);
+        }
+
+    </style>
 </head>
 <body>
-    
+    <section class="box">
+        <div class="box-item" id="item-1">1</div>
+        <div class="box-item" id="item-2">2</div>
+        <div class="box-item" id="item-3">3</div>
+    </section>
 </body>
 </html>

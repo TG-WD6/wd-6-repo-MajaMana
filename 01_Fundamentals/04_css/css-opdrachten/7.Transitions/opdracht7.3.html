@@ -17,7 +17,7 @@
             border: solid black;
             width: 900px;
             margin: 10px;
-            background-color: aquamarine;
+            background-color: pink;
             align-items: flex-start;
         }
 
@@ -31,10 +31,45 @@
             justify-content: center;
             align-items: center;
             font-size: x-large;
-            transform: 2s;
+            transition: 2s;
         }
 
-        .box:hover {
+        #item-1 {
+            transition-timing-function: ease-in-out;
+        }
+
+        #item-2 {
+            transition-timing-function: linear;
+        }
+
+        #item-3 {
+            transition-timing-function: ease-out;
+        }
+
+        #item-4 {
+            transition-timing-function: ease-in;
+        }
+
+        .box:hover .box-item {
+            background: royalblue;
+        }
+
+        .box:hover #item-1 {
+            border-radius: 50%;
+            transform: translateX(810px);
+        }
+
+        .box:hover #item-2 {
+            border-radius: 25%;
+            transform: translateX(810px);
+        }
+
+        .box:hover #item-3 {
+            transform: translateX(810px);
+        }
+
+        .box:hover #item-4 {
+            transform: translateX(810px);
         }
 
     </style>
