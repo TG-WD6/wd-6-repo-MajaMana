@@ -30,33 +30,86 @@
             width: 50px;
             position: absolute;
             font-size: x-large;
-            transition: 4s;
+        }
+
+        .box:hover #item-1 {
+            animation-name: box-1;
+            animation-duration: 5s;
+            transition: ease-in;
+        }
+
+        @keyframes box-1 {
+            0% {transform: translate(0px,0px);}
+            20% {transform: translate(0px,-100px);}
+            60% {transform: translate(375px,-150px);}
+            100% {transform: translate(375px,-175px);}
         }
 
         #item-1 {
-            transition-timing-function: ease-in;
-        }
-        
-        .box:hover #item-1 {
-            transform: translate(375px,-175px);
+            animation-name: box-1-after;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            transition: ease-in;
         }
 
-        #item-2 {
-            transition-timing-function: ease-in;
+        @keyframes box-1-after {
+            0% {transform: translate(375px,-175px);}
+            20% {transform: translate(375px,-150px);}
+            60% {transform: translate(0px,-100px);}
+            100% {transform: translate(0px,0px);}
         }
 
         .box:hover #item-2{
-            transform: translate(-375px,-175px);
+            animation-name: box-2;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            transition: ease-in;
+        }
+
+        @keyframes box-2 {
+            0% {transform: translate(0px,0px);}
+            20% {transform: translate(0px,-100px);}
+            60% {transform: translate(-375px,-150px);}
+            100% {transform: translate(-375px,-175px);}
+        }
+
+        #item-2 {
+            animation-name: box-2-after;
+            animation-duration: 5s;
+            transition: ease-in;
+        }
+
+        @keyframes box-2-after {
+            0% {transform: translate(-375px,-175px);}
+            20% {transform: translate(-375px,-150px);}
+            60% {transform: translate(0px,-100px);}
+            100% {transform: translate(0px,0px);}
+        }
+        .box:hover #item-3 {
+            animation-name: box-3;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            transition: ease-in-out;
+        }
+        
+        @keyframes box-3 {
+            0% {transform: translate(0px,0px);}
+            60% {transform: translate(-375px,0px);}
+            100% {transform: translate(-375px,175px);}
         }
 
         #item-3 {
-            transition-timing-function: ease-in-out;
+            animation-name: box-3-after;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            transition: ease-in-out;
         }
 
-        .box:hover #item-3 {
-            transform: translate(-375px,175px);
+        @keyframes box-3-after {
+            0% {transform: translate(-375px,175px);}
+            60% {transform: translate(0px,175px);}
+            100% {transform: translate(0px,0px);}
         }
-
     </style>
 </head>
 <body>
