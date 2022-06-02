@@ -93,3 +93,11 @@ nav a {
   position: relative;
   bottom: 2px;
 }
+
+@media (max-width:480px) {
+  .page-title {width: 270px;}
+}
+
+@media(min-width:320px) and (max-width:480px) {
+  .gallery-item .thumbnail {width:95%}
+}
