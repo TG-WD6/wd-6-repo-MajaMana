@@ -33,6 +33,20 @@
 # Retro Week \#3
 
 ## Wat ging goed
+1. Ik was erg gemotiveerd en had plezier in het maken van de opdrachten.
+2. Concentreren lukte beter.
+
+## Wat ging er minder goed
+1. Mijn gezondheid is niet helemaal top, dus 2 dagen heb ik last gehad van me niet lekker voelen.
+2. Ik was een aantal uur afwezig, waardoor ik tijd tekort kwam om de handout volledig af te krijgen voor het weekend.
+
+## Actiepunten voor volgende week
+* Tijd inhalen als ik tijd tekort kom door persoonlijke redenen.
+* Meer rust nemen wanneer ik merk dat het niet goed gaat met mijn gezondheid.
+
+# Retro Week \#4
+
+## Wat ging goed
 1. Succes
 2. Succes
 
