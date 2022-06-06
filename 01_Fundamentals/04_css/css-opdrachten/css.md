@@ -238,7 +238,24 @@ De belangrijkste waardes van “position” zijn static, relative, absolute, fix
 
 ### **Opdracht 1**
 
-Er zijn 14 verschillende pseudo-elementen. Beschrijf ze alle 14 kort en maak voor elk een voorbeeld
+Er zijn 14 verschillende pseudo-elementen. Beschrijf er een paar kort en maak voor elk een voorbeeld.
+
+1. ::after
+
+*::after maakt het mogelijk voor het element om achter de content te staan, maar voor het element waar ::after bij gebruikt wordt.
+
+2. ::before
+
+*::before maakt het mogelijk voor het element om achter de content te staan, voor het element waar ::before bij gebruikt wordt EN achter het ::after element.*
+
+6. ::first-letter
+
+7. ::first-line
+
+11. ::placeholder
+
+12. ::selection
+
 
 <br>
 
@@ -257,6 +274,8 @@ Bij CSS Grid wordt vaak gebruikgemaakt van een speciale lengte-eenheid: “**fr*
 ### **Opdracht 1**
 
 Zoek uit wat transitions zijn en beschrijf met eigen woorden wat het betekent.
+
+*Transitions zijn transities die je kan toevoegen aan een element. Zo kun je een blokje van kleur laten veranderen, laten bewegen naar een andere plek of rond laten draaien.*
 
 <br>
 
