@@ -1,0 +1,33 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.navbar-list a {
+    font-size: large;
+    color: $text-color;
+    text-decoration: none;
+}
+
+.navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }

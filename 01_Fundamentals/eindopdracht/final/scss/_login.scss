@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-logo {
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.login-title {
+    margin-block: 0;
+    color: black;
+}
+
+.login-description {    
+    margin-block: 5px;
+    color: gray;
+}
