@@ -1,0 +1,17 @@
+$break-small: 480px;
+$break-large: 1100px;
+
+img {
+    height: 600px;
+    width: 700px;
+
+    @media (max-width: $break-small) {
+        width: 300px;
+        height: 200px;
+    }
+
+    @media (min-width: $break-small) and (max-width: $break-large) {
+        width: 500px;
+        height: 400px;
+    }
+}

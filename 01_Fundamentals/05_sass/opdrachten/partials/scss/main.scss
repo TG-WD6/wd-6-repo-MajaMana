@@ -1,2 +1,10 @@
-@import "/01_Fundamentals/05_sass/opdrachten/partials/partial_scss/colors";
+@import "./colors";
+@import "./button";
 
+.button {
+    background-color: $primary-color;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}

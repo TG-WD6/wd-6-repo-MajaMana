@@ -1,0 +1,45 @@
+@mixin button-styling {
+    background-color: pink;
+    color: white;
+}
+
+@mixin button-styling-hover {
+    background-color: lightblue;
+    color: blue;
+}
+
+@mixin div-transition {
+    transition: 2s;
+    background-color: lightgreen;
+}
+
+@mixin div-transition-hover {
+    background-color: lightblue;
+}
+
+.button {
+    @include button-styling;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    @include button-styling-hover;
+}
+
+.colorChangingSquare {
+    @include div-transition;
+    width: 100px;
+    height: 100px;
+}
+
+.colorChangingSquare:hover {
+    @include div-transition-hover()
+}
+
