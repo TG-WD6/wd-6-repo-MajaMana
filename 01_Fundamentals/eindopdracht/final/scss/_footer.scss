@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 20px;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-row-text {
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row-text a {
+    color: gray;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+.footer-row-text a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin: 20px 150px;
+}
+
+h3 {
+    margin: 5px 0px;
+}
+
+.footer-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+}

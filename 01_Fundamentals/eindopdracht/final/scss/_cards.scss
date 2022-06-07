@@ -1,0 +1,42 @@
+.product-cards {
+    margin: 25px 20px;
+}
+
+.product-cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+.product-cards-description {
+    margin: 0px 10px;
+}
+
+.product-cards-order {
+    width: 30%;
+}
+
+.cart-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.product-cards-cart {
+    background-color: rgb(255, 204, 0);
+    border: none;
+    width: 50px;
+}
+
+.product-cards-cart:hover {
+    cursor: pointer;
+}
+
+.product-cards-price {
+    color: red;
+}
+
+.product-cards-delivery {
+    color: rgb(24, 198, 24);
+}
