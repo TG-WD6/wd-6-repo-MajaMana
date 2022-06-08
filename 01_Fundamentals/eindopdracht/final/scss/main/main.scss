@@ -1,5 +1,6 @@
-@import "./general";
-@import "./variables";
+@import "/01_Fundamentals/eindopdracht/final/scss/base/resets";
+@import "/01_Fundamentals/eindopdracht/final/scss/abstracts/variables";
+@import "/01_Fundamentals/eindopdracht/final/scss/abstracts/mixins";
 @import "/01_Fundamentals/eindopdracht/final/scss/layout/navbar";
 @import "/01_Fundamentals/eindopdracht/final/scss/layout/login";
 @import "/01_Fundamentals/eindopdracht/final/scss/layout/cards";
