@@ -73,3 +73,10 @@ span.psw a {
     width: 20px;
     padding: 0px 10px;
 }
+
+@media (max-width:768px) {
+    .login-form {
+        border: solid 1px black;
+        width: 80%;
+    }
+}
