@@ -1,21 +1,15 @@
 .footer {
-    display: flex;
-    flex: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    @include flexbox-row-start;
     margin: 50px 20px;
 }
 
 .footer-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include flexbox-row-minimal;
 }
 
 .footer-row-text {
     margin: 0px 15px;
-    display: flex;
-    flex-direction: column;
+    @include flexbox-column-start
 }
 
 .footer-row-text a {
@@ -44,25 +38,22 @@ h3 {
 
 @media (max-width:768px) {
     .footer {
-        max-width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
+        @include total-width;
+        @include flexbox-column;
+        @include margin;
     }
 
     .footer-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        width: 100%;
+        @include total-width;
     }
 
     .footer-row-text {
-        border-bottom: solid 1px black;
+        @include border-bottom;
         align-items: center;
-        margin: 0;
+        @include margin;
     }
 
     #klantenservice {
@@ -81,11 +72,9 @@ h3 {
     }
 
     .footer-links {
-        display: grid;
+        @include grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        justify-content: space-between;
-        align-items: center;
         font-size: medium;
         text-align: center;
         gap: 5px;

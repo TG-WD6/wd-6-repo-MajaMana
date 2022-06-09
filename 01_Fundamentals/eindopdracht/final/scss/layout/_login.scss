@@ -1,26 +1,20 @@
 input[type=text], input[type=password] {
-    width: 100%;
+    @include total-width;
     padding: 12px 5px;
     margin: 8px 0;
     display: inline-block;
     border: none;
-    border-bottom: 2px solid black;
+    @include border-bottom;
     color: gray;
 }
 
 .login-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flexbox-column;
     margin: 25px 0px;
 }
 
 .login {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flexbox-column;
 }
 
 .login-logo {
@@ -47,9 +41,7 @@ input[type=text], input[type=password] {
 }
 
 .login-form-opt {
-    display: flex;
-    flex: row;
-    justify-content: space-between;
+    @include flexbox-row;
     margin: 10px 0px;
 }
 
@@ -59,7 +51,7 @@ input[type=text], input[type=password] {
 }
 
 .login-form-button {
-    width: 100%;
+    @include total-width;
     background-color: rgb(0, 63, 255);
     color: white;
     font-size: x-large;
@@ -80,19 +72,17 @@ input[type=text], input[type=password] {
 
 @media (max-width:768px) {
     .login-form {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include total-width;
+        @include flexbox-column-center;
     }
 
     input[type=text], input[type=password] {
-        width: 100%;
+        @include total-width;
         padding: 5px 0px;
         margin: 8px 0;
         display: inline-block;
         border: none;
-        border-bottom: 2px solid black;
+        @include border-bottom;
         color: gray;
     }
 }
