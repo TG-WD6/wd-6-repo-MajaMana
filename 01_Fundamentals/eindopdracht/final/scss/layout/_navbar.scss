@@ -101,10 +101,19 @@
         background-color: $primary-color;
         width: 100vw;
         text-align: center;
-        transition: 0.3s;
+        transition: 0.4s;
         right: -100%;
         top: 50px;
         padding: 0;
+        li {
+            position: relative;
+            transition: 0.4s;
+            right: -120%;
+        }
+
+        &-item {
+        margin: 16px 0px;
+        }
     }
 
     .nav-list-item {
@@ -113,5 +122,16 @@
 
     .nav-list.active {
         right: 0;
+        li {
+            right: 0;
+
+            &:nth-child(2) {
+                transition-delay: 0.15s;
+            }
+
+            &:nth-child(3) {
+                transition-delay: 0.25s;
+            }
+        }
     }
 }

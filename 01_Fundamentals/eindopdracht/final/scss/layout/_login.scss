@@ -38,11 +38,15 @@ input[type=text], input[type=password] {
     color: gray;
 }
 
-span.psw a {
+.psw a {
     text-decoration: none;
 }
 
-.login-form-box {
+.psw:hover {
+    text-decoration: underline;
+}
+
+.login-form-opt {
     display: flex;
     flex: row;
     justify-content: space-between;

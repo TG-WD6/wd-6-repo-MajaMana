@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final</title>
-    <link rel="stylesheet" href="/01_Fundamentals/eindopdracht/final/scss/main/main.css">
+    <link rel="stylesheet" href="/01_Fundamentals/eindopdracht/final/scss/main.css">
 </head>
 <body>
     <header class="header">
@@ -13,15 +13,15 @@
         <nav class="navbar">
             <ul class="nav-list">
                 <li class="nav-list-item">
-                    <a href="#home" class="nav-link" id="home"><img class="nav-image" src="/01_Fundamentals/eindopdracht/final/images/home-icon.png.png" alt="Home">Home</a>
+                    <a href="#home"><img class="nav-image" src="/01_Fundamentals/eindopdracht/final/images/home-icon.png.png" alt="Home">Home</a>
+                </li>
+                
+                <li class="nav-list-item">
+                    <a href="#popular"><img class="nav-image" src="/01_Fundamentals/eindopdracht/final/images/heart-icon.png" alt="Popular">Popular</a>
                 </li>
 
                 <li class="nav-list-item">
-                    <a href="#popular" class="nav-link" id="popular"><img class="nav-image" src="/01_Fundamentals/eindopdracht/final/images/heart-icon.png" alt="Popular">Popular</a>
-                </li>
-
-                <li class="nav-list-item">
-                    <a href="#contact" class="nav-link" id="contact"><img class="nav-image" src="/01_Fundamentals/eindopdracht/final/images/contact-icon.png" alt="Contact">Contact</a>
+                    <a href="#contact"><img class="nav-image" src="/01_Fundamentals/eindopdracht/final/images/contact-icon.png" alt="Contact">Contact</a>
                 </li>
             </ul>
 
@@ -32,7 +32,7 @@
             </div>
         </nav>
     </header>
-    <script src="/01_Fundamentals/eindopdracht/final/dist/script.js"></script>
+    <script src="./script.js"></script>
 
     <form class="login-form">
         <section class="login">
@@ -48,7 +48,7 @@
             <label for="psw"><b></b></label>
             <input type="password" placeholder="Password" name="psw" required>
         
-            <div class="login-form-box">
+            <div class="login-form-opt">
                 <label>
                     <input type="checkbox" name="remember">
                     <span class="checkbox">Remember me</span>
@@ -56,8 +56,7 @@
                 <span class="psw"><a href="#">Forgot Password?</a></span>
             </div>
 
-            <button class="login-form-button" type="submit"> <img class="cat-icon" src="/01_Fundamentals/eindopdracht/final/images/cat-icon.png" alt="Cat icon">
-                LOGIN</button>
+            <button class="login-form-button" type="submit"> <img class="cat-icon" src="/01_Fundamentals/eindopdracht/final/images/cat-icon.png" alt="Cat icon">LOGIN</button>
         </section>
     </form>
 
