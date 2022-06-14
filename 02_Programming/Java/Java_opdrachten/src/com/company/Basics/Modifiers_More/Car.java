@@ -1,8 +1,9 @@
 package com.company.Basics.Modifiers_More;
 
 public class Car {
+    public String color;
 
-    public static void main(String[] args) {
-        
+    public Car(String color) {
+        this.color = color;
     }
 }
