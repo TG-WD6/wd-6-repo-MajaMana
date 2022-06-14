@@ -44,7 +44,25 @@
 * Tijd inhalen als ik tijd tekort kom door persoonlijke redenen.
 * Meer rust nemen wanneer ik merk dat het niet goed gaat met mijn gezondheid.
 
+<br>
+
 # Retro Week \#4
+
+## Wat ging goed
+1. Mijn motivatie was erg hoog.
+2. Ik kon me goed concentreren op de opdracht.
+
+## Wat ging er minder goed
+1. Ik slaap niet zo goed, omdat ik elke dag om 5 uur wakker word.
+2. Ik raakte snel gefrustreerd als iets niet goed ging.
+
+## Actiepunten voor volgende week
+* Ik ga proberen eerder naar bed te gaan.
+* Ik ga proberen niet zo erg mijn frustraties over te laten nemen als iets niet lukt.
+
+<br>
+
+# Retro Week \#5
 
 ## Wat ging goed
 1. Succes
