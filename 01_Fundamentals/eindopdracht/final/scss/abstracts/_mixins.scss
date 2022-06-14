@@ -1,0 +1,62 @@
+@mixin flexbox-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexbox-row-minimal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin flexbox-row-start {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@mixin flexbox-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexbox-column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@mixin flexbox-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin grid {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin total-width {
+    width: 100%;
+}
+
+@mixin border-top {
+    border-top: solid 1px black;
+}
+
+@mixin border-bottom {
+    border-bottom: solid 1px black;
+}
+
+@mixin margin {
+    margin: 0;
+}
