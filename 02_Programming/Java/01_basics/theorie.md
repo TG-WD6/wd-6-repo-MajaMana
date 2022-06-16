@@ -67,6 +67,9 @@ Wat is een voordeel van Weak Typing?
 
 # Java vragen hoofdstuk 5
 ### **Opdracht 7**
+Wat is deze standaardmaat van een ArrayList en hoeveel groeit deze als hij eroverheen gaat?
+
+*De standaardmaat van een ArrayList is 10. De standaardmaat groeit steeds met 1,5 keer als je eroverheen gaat.*
 
 <br>
 
