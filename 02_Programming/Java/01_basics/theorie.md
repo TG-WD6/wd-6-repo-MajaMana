@@ -76,14 +76,17 @@ Wat is deze standaardmaat van een ArrayList en hoeveel groeit deze als hij erove
 # Java vragen hoofdstuk 6
 ## **Opdracht 1**
 ### **Opdracht 1.4**
+*Je komt nooit bij de else uit, omdat 27 altijd kleiner zal zijn dan 30.*
 
 <br>
 
 ### **Opdracht 1.5**
+*Dit lukt niet goed, omdat de statements booleans zijn in plaats van de int die gevraagd wordt.*
 
 <br>
 
 ### **Opdracht 1.7**
+*Het print de case "Friday" niet uit als de value niet hetzelfde is. Maar als de value wel matched, dan zal Java de code uit blijven voeren tot het een break vindt, zonder te checken of een waarde true of false is van de andere cases.*
 
 <br>
 
