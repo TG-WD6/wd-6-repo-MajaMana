@@ -1,5 +1,4 @@
 # Retro Week \#1
-
 ## Wat ging goed
 1. De samenwerking was geweldig
 2. Het uitvoeren van de opdrachten ging goed
@@ -15,7 +14,6 @@
 <br>
 
 # Retro Week \#2
-
 ## Wat ging goed
 1. Samenwerking ging goed
 2. Vragen stellen ging goed
@@ -31,7 +29,6 @@
 <br>
 
 # Retro Week \#3
-
 ## Wat ging goed
 1. Ik was erg gemotiveerd en had plezier in het maken van de opdrachten.
 2. Concentreren lukte beter.
@@ -47,7 +44,6 @@
 <br>
 
 # Retro Week \#4
-
 ## Wat ging goed
 1. Mijn motivatie was erg hoog.
 2. Ik kon me goed concentreren op de opdracht.
@@ -63,7 +59,19 @@
 <br>
 
 # Retro Week \#5
+## Wat ging goed
+1. Ik heb me goed aan mijn schema kunnen houden.
+2. Ik ben goed actief gebleven buiten lestijden om.
 
+## Wat ging er minder goed
+1. Het kwartje is nog niet gevallen voor Java, dus mijn motivatie neemt af.
+2. Ik slaap slecht, omdat ik 's nachts steeds wakker word.
+
+## Actiepunten voor volgende week
+* Hulp vragen aan learning coaches voor extra uitleg.
+* Sneller vragen stellen aan mijn team.
+
+# Retro Week \#6
 ## Wat ging goed
 1. Succes
 2. Succes
