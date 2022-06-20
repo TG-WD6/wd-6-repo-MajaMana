@@ -92,19 +92,29 @@ Wat is deze standaardmaat van een ArrayList en hoeveel groeit deze als hij erove
 
 ## **Opdracht 2**
 ### **Opdracht 2.1**
-
+*True, true en false*
 <br>
 
 ### **Opdracht 2.2**
-
+*De uitkomst voldoet aan mijn verwachtingen.*
 <br>
 
 ### **Opdracht 2.3**
+*Laten we beginnen met isMathFun1. Als we de PEMDAS volgorde gebruiken, dan betekent dat dat we eerst moeten kijken naar alles wat tussen de haakjes staat. In dit geval is dat (a == 7 && (b >= a || a != a)). Binnen de haakjes hebben de haakjes ook voorrang, dus (b >= a || a != a) is het eerste waar we naar gaan kijken. In deze haakjes staat dat b groter is dan a OF a is niet gelijk aan a. Als we dan naar de haakjes erbuiten kijken, staat er dan a gelijk is aan 7 EN dat de waarden binnen de andere haakjes ook true moeten zijn. Dus tussen de haakjes staat dat a gelijk is aan 7 EN (b is groter dan a OF a is niet gelijk aan a). Voordat de haakjes geopend werden, stond er een uitroepteken voor. Dit betekent dat alles tussen de haakjes dus NIET het geval moet zijn. Dit klopt, want alles tussen de haakjes is false, maar omdat het uitroepteken juist wil dat het false is, maakt het de statement true.*
+
+<br>
+
+*Bij isMathFun2 wordt er maar op 1 plek gebruik gemaakt van haakjes en dat is ook de eerste plek waar we naar gaan kijken. (b > 3) betekent dat b groter is dan 3. Voor de haakjes staat een uitroepteken, wat dus betekent dat de statement juist false moet zijn. b is gelijk aan 3, dus de statement is inderdaad false, wat door het uitroepteken dus true wordt. Voor de statement van de haakjes staat a == b. a is dus gelijk aan b. De hele statement is a == b || !(b > 3). a is gelijk aan b OF b is niet groter dan 3. b is 3, dus het is niet groter dan 3. Omdat het een "of" statement is, maakt het de statement dus true, omdat de statement na het "of" teken true is.*
+
+<br>
+
+*Bij isMathFun3 hebben we weer bijna de hele statement tussen de haakjes. (b <= a && b != a + b). Dit staat voor b is kleiner of gelijk aan a EN b is niet gelijk aan (a + b). Vanwege PEMDAS zal de optelsom van a + b voorrang hebben, dus het is niet b is niet gelijk aan a en DAN + b, maar b is niet gelijk aan (a + b). De statements tussen de haakjes kloppen. b is namelijk kleiner of gelijk aan a EN b is niet gelijk aan (a + b), MAAR voor de haakjes staat een uitroepteken, wat betekent dat de statement false moet zijn. Omdat de statement true is en het uitroepteken de statement false maakt, zal de statement false zijn.*
 
 <br>
 
 ## **Opdracht 3**
 ### **Opdracht 3.1**
+*De loop zal oneindig doorgaan, omdat een while loop doorgaat tot de statement false wordt. Als de statement true blijft, zal de loop nooit eindigen.*
 
 <br>
 
