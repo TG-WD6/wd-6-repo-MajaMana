@@ -71,7 +71,24 @@
 * Hulp vragen aan learning coaches voor extra uitleg.
 * Sneller vragen stellen aan mijn team.
 
+<br>
+
 # Retro Week \#6
+## Wat ging goed
+1. Ik begon Java eindelijk een beetje te begrijpen.
+2. Ik ben gemotiveerd gebleven, zelfs wanneer het niet goed wilde lukken.
+
+## Wat ging er minder goed
+1. Ik blijf slecht slapen.
+2. Concentratie was soms wel moeilijk te behouden als het echt niet wilde lukken.
+
+## Actiepunten voor volgende week
+* Beter proberen te slapen.
+* Concentratie beter proberen vast te houden.
+
+<br>
+
+# Retro Week \#7
 ## Wat ging goed
 1. Succes
 2. Succes
