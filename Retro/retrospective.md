@@ -94,7 +94,7 @@
 2. Succes
 
 ## Wat ging er minder goed
-1. Minder succes
+1. Ik ben steeds erg moe en slaap slecht.
 2. Minder succes
 
 ## Actiepunten voor volgende week
