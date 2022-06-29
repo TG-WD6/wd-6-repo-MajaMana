@@ -1,6 +1,6 @@
 # Theorie Java Basics
 
-In dit document zal ik de Java vragen beantwoorden.
+In dit document zal ik de Java Basics vragen beantwoorden.
 
 # Java vragen hoofdstuk 1
 
