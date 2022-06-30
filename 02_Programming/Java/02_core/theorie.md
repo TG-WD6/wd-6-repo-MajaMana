@@ -1,4 +1,4 @@
-# Theorie Java Basics
+# Theorie Java Core
 
 In dit document zal ik de Java Core vragen beantwoorden.
 
@@ -18,6 +18,7 @@ In dit document zal ik de Java Core vragen beantwoorden.
 
 # Java vragen hoofdstuk 3
 ### **Opdracht 1**
+*Het voordeel van een LinkedList is dat het toevoegen of verwijderen van objecten op een specifieke plek in de lijst makkelijk is. Het voordel van een ArrayList is dat als je een specifiek object moet opzoeken binnen de lijst, het onmiddelijk gebeurt zonder vertraging. Dit is omdat bij een ArrayList alle objecten geteld staan, zodat het programma direct naar het genoteerde object kan springen. Maar bij LinkedList zal het programma langs elk object ervoor moeten gaan om het op dat moment te tellen. Dit is te doen bij lijsten van 5 items, maar niet bij lijsten van 1000 items. Beide hebben dus hun plus en minpunten.*
 
 <br>
 
