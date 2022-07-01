@@ -90,6 +90,23 @@
 
 # Retro Week \#7
 ## Wat ging goed
+1. Ik begrijp de Java basis, waardoor een uitleg lezen of een video erover kijken veel makkelijker te begrijpen is.
+2. Ik heb na mijn lesdagen goed tijd gestoken in mijn "werkplaats" opruimen en schoonmaken, om zo meer peace of mind te krijgen.
+
+## Wat ging er minder goed
+1. Ik ben steeds erg moe en slaap slecht.
+2. Het lukte me niet om mijn concentratie te vinden als ik het eenmaal kwijt was.
+
+## Actiepunten voor volgende week
+* Niet eten voor het slapen gaan!
+* Beter letten op mijn voeding.
+* Nog eerder naar bed proberen te gaan.
+* Hulp vragen als ik me echt niet kan concentreren.
+
+<br>
+
+# Retro Week \#8
+## Wat ging goed
 1. Succes
 2. Succes
 
