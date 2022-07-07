@@ -40,20 +40,27 @@ In dit document zal ik de Java Core vragen beantwoorden.
 <br>
 
 ### **Opdracht 4**
-*Wildcards worden veranderd in het type wat jij hebt ingevuld in de parameter. Dus als jij een nummer hebt ingevuld, wordt Wildcard vervangen door Number. Alleen als de Wildcards bounded zijn.*
+*Wildcards worden veranderd in het type wat jij hebt ingevuld in de parameter. Dus als jij een nummer hebt ingevuld, wordt Wildcard vervangen door Number. Alleen als de Wildcards bounded zijn.* 
 
 <br>
 
 # Java vragen hoofdstuk 4
 ### **Opdracht 1**
+*De namen van de Function, Consumer en Supplier methods zijn:*
+*Function:*
+*Consumer:*
+*Supplier:*
 
 <br>
 
 ### **Opdracht 2**
+*Je moet een return statement, brackets en haakjes toevoegen bij een lambda als*
+*Ze mogen weggelaten worden als*
 
 <br>
 
 ### **Opdracht 3**
+*Het verschil tussen de Stream methods .map() en .collect() zijn*
 
 <br>
 
