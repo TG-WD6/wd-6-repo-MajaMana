@@ -107,6 +107,22 @@
 
 # Retro Week \#8
 ## Wat ging goed
+1. Ik heb eindelijk weer workouts kunnen doen en dat zelfs tijdens mijn pauzes.
+2. Ik ben over het algemeen in een beter humeur.
+
+## Wat ging er minder goed
+1. Ik ben steeds erg moe en slaap slecht.
+2. Ik kon me totaal niet concentreren.
+
+## Actiepunten voor volgende week
+* Hulp vragen aan de learning coaches wanneer ik merk dat ik me niet kan concentreren.
+* Beter eten op een dag.
+* Toch eerder proberen te slapen.
+
+<br>
+
+# Retro Week \#9
+## Wat ging goed
 1. Succes
 2. Succes
 
