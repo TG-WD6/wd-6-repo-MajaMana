@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 1.6</title>
+    <style>
+        * {
+            font-size: large;
+            font-style: italic;
+        }
+
+        a[href] {
+            background-color: pink;
+            color: black;
+        }
+
+        section > p {
+            background-color: purple;
+            color: aqua;
+        }
+
+        div + p {
+            background-color: aqua;
+        }
+
+        section ~ p {
+            color: blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Universal selector</h1>
+        <p>Child selector1</p>
+        <a href="/CSS/opdracht1.6.html">Attribute selector</a>
+    </section>
+
+    <section>
+        <p>Child selector2</p>
+    </section>
+
+    <p>General sibling selector1</p>
+    <p>General sibling selector2</p>
+
+    <div>
+        <p>Universal selector</p>
+    </div>
+
+    <p>Adjacent and general sibling selector</p>
+</body>
+</html>

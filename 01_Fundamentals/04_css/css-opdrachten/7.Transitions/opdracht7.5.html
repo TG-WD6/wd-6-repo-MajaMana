@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 7.5</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .box {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            border: 2px solid black;
+            height: 400px;
+            width: 600px;
+            margin: 20px;
+        }
+
+        .box-item {
+            margin: 0;
+        }
+
+        img {
+            height: 181px;
+            width: 181px;
+        }
+        
+        #img-cover {
+            height: 181px;
+            width: 181px;
+            margin: 10px;
+            transition: 2s;
+            transition-delay: 2s;
+            position: absolute;
+            z-index: 2;
+        }
+
+        #item-funny {
+            border: 10px solid black;
+            height: 200px;
+            width: 200px;
+            transition: 2s;
+            z-index: 1;
+        }
+
+        #item-cover {
+            position: absolute;
+            height: 181px;
+            width: 181px;
+            background-color: pink;
+            margin: 10px;
+            transition: 2s;
+            z-index: 3;
+        }
+
+        #item-cover:hover {
+            transform: rotate(45deg) translate(250px, -12px);
+        }
+
+        .box:hover #img-cover {
+            background-color: black;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <section class="box">
+        <div class="box-item" id="item-funny">
+            <img src="./Images/Pikachu.jpg" alt="Surprised Pikachu">
+        </div>
+        <div class="box-item" id="item-cover"></div>
+        <div class="box-item" id="img-cover"></div>
+    </section>
+</body>
+</html>

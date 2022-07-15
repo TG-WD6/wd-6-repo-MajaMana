@@ -1,0 +1,10 @@
+@import "./colors";
+@import "./button";
+
+.button {
+    background-color: $primary-color;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}

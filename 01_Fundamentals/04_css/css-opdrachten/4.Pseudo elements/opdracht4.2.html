@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 4.2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .box {
+            background-color: lightseagreen;
+            font-size: xx-large;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            width: 600px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box ::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            background-color: lightseagreen;
+            border-right: 10px solid tomato;
+            border-bottom: 10px solid tomato;
+            height: 40px;
+            left: 550px;
+            top: 0px;
+        }
+
+        .box ::before {
+            content: '';
+            position: absolute;
+            width: 40px;
+            background-color: lightseagreen;
+            border-left: 10px solid tomato;
+            border-top: 10px solid tomato;
+            height: 40px;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box-content-button">Button</div>
+    </div>
+</body>
+</html>
