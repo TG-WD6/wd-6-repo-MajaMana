@@ -123,11 +123,26 @@
 
 # Retro Week \#9
 ## Wat ging goed
+1. Ik heb eindelijk door hoe ik beter kan doorslapen.
+2. Ik heb goed naar mijn lichaam geluisterd toen ik rust nodig had.
+
+## Wat ging er minder goed
+1. Concentratie is nog steeds ver te zoeken.
+2. De afgelopen week heb ik veel met persoonlijke omstandigheden geworsteld, wat mijn humeur en concentratie niet heeft geholpen.
+
+## Actiepunten voor volgende week
+* Tijdens mijn vakantie ga ik op mijn eigen tempo aan de slag met de opdrachten.
+* Na de vakantie, als ik dan nog steeds last heb van concentratieproblemen, ga ik vaker aan het werk met mijn camera uit. Zo hoop ik dat ik me beter kan concentreren.
+
+<br>
+
+# Retro Week \#10
+## Wat ging goed
 1. Succes
 2. Succes
 
 ## Wat ging er minder goed
-1. Ik ben steeds erg moe en slaap slecht.
+1. Minder succes
 2. Minder succes
 
 ## Actiepunten voor volgende week
